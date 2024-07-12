@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.modelContainer {
+  font-family: "Poppins";
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.modelName {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.modelDetails tbody {
+  border: none;
+  width: 15rem;
+  height: 21.5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.modelDetails tbody .topHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+  height: 3.5rem;
+  background-color: rgba(0, 0, 158, 0.878);
+  color: white;
+}
+.modelDetails tbody td {
+  height: 2.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+}
+.modelDetails button {
+  background-color: rgba(0, 0, 158, 0.878);
+  color: white;
+  border: none;
+  border-radius: 0 0 4px 4px;
+  height: 2.5rem;
+  width: 100%;
+  cursor: pointer;
+}
+.modelDetails button:hover {
+  background-color: rgb(0, 0, 158);
+}
+.modelDetails tbody td span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  color: rgb(0, 0, 0);
+}
+.modelBtn {
+  margin: 0.5rem 0;
+  background-color: rgba(0, 0, 158, 0.878);
+  border-radius: 4px;
+  border: none;
+  color: beige;
+  font-family: "Poppins", sans-serif;
+  width: 15rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.modelBtn:hover {
+  background-color: rgb(0, 0, 158);
+}
+.modelImg {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+}
+.modelImg img {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 926px) {
+  .modelName {
+    margin-top: 2rem;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1179px) {
+  .modelDetails tbody {
+    width: 40rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .modelImg {
+    height: 20rem;
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 730px) {
+  .modelDetails tbody {
+    width: 30rem;
+  }
+  .modelBtn {
+    width: 10rem;
+    height: 2.5rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .modelDetails tbody {
+    width: 22.5rem;
+  }
+  .modelImg {
+    height: 15rem;
+    width: 22.5rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .modelName {
+    width: 90%;
+  }
+  .modelDetails tbody {
+    width: 15rem;
+  }
+  .modelImg {
+    height: 10rem;
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .modelName {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .modelBtn {
+    width: 90%;
+    height: 2.5rem;
+  }
+}

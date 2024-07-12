@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.container {
+  margin-top: 2.5rem;
+  font-family: "Roboto";
+  width: 90%;
+  display: flex;
+}
+.rental,
+.company,
+.working,
+.subscription {
+  margin: 1rem 1rem;
+  width: 25%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.rental h1,
+.company h1,
+.working h1,
+.subscription h1 {
+  margin: 0.5rem 0;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 25px;
+}
+
+.rental p,
+.company p,
+.working p,
+.subscription p {
+  margin: 0.5rem 0;
+  letter-spacing: 1px;
+  color: #3f3f3f;
+}
+.company p {
+  margin: 0.3rem 0;
+}
+.rental h1 span {
+  margin-left: 0.5rem;
+  color: rgb(0, 0, 158);
+}
+.rental h3 {
+  font-family: "Poppins";
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+.subscription input,
+.subscription button {
+  border-radius: 1px;
+  outline: none;
+  border: none;
+  width: 95%;
+  height: 2.2rem;
+  margin: 0.5rem 0;
+}
+::placeholder {
+  color: white;
+}
+
+.subscription input {
+  text-align: center;
+  background-color: rgb(131, 131, 131);
+  color: white;
+}
+.subscription button {
+  background-color: rgb(0, 0, 158);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 857px) {
+  .container {
+    flex-direction: column;
+  }
+  .rental,
+  .company,
+  .working,
+  .subscription {
+    width: 80%;
+    flex-direction: column;
+  }
+  .subscription input,
+  .subscription button {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .subscription input,
+  .subscription button {
+    width: 80%;
+  }
+}
