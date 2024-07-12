@@ -42,7 +42,7 @@ let Models = () => {
     },
     {
       rent: "1499",
-      img: "Models/harrier.PNG",
+      img: "Models/harrier.png",
       brand: "Tata",
       model: "Harrier",
       mark: "A1",
@@ -54,7 +54,7 @@ let Models = () => {
     },
     {
       rent: "1250",
-      img: "Models/thar.PNG",
+      img: "Models/thar.png",
       brand: "Mahindra",
       model: "Thar",
       mark: "A1",
@@ -66,7 +66,7 @@ let Models = () => {
     },
     {
       rent: "1499",
-      img: "Models/nexon.PNG",
+      img: "Models/nexon.png",
       brand: "Tata",
       model: "Nexon",
       mark: "A1",

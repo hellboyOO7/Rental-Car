@@ -6,13 +6,13 @@ let Testimonial = () => {
   let [user, setUser] = useState([
     {
       name: "Joe Doel",
-      image: "Testimonial/user.PNG",
+      image: "Testimonial/user.png",
       city: "Belgrade",
       comment: `"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable."`,
     },
     {
       name: "Lisa Amilia",
-      image: "Testimonial/user.PNG",
+      image: "Testimonial/user.png",
       city: "Novi Sad",
       comment: `"The car was in great condition and made our trip even better. Highly recommend for this car rental website!"`,
     },

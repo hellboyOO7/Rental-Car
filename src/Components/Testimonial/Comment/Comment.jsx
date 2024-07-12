@@ -17,7 +17,7 @@ let Comment = ({ user }) => {
                   <p>{item.city}</p>
                 </div>
               </div>
-              <img className={styles.commentIcon} src="Testimonial/coma.PNG" />
+              <img className={styles.commentIcon} src="Testimonial/coma.png" />
             </div>
           </div>
         );

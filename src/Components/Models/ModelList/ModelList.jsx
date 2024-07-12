@@ -3,7 +3,7 @@ import styles from "./ModelList.module.css";
 import { PiLineVerticalBold } from "react-icons/pi";
 
 let ModelList = ({ carModels }) => {
-  let [image, setImage] = useState("Models/elentra.PNG");
+  let [image, setImage] = useState("Models/elentra.png");
   let [details, setDetails] = useState({
     rent: "1100",
     brand: "Hyundai",
