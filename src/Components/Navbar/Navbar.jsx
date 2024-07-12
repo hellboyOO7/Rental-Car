@@ -16,7 +16,7 @@ let Navbar = () => {
       <div className={styles.logoContainer}>
         <img
           className={styles.navlogo}
-          src="src\assets\navbar\logo.png"
+          src="../src/assets/navbar/logo.PNG"
           alt="logo-image"
         />
         <h1 className={styles.navHeading}>Rental Car</h1>
@@ -53,7 +53,9 @@ let Navbar = () => {
         <img
           className={styles.hamIcon}
           src={
-            handleHam ? "src/assets/nav/close.png" : "src/assets/nav/menu.png"
+            handleHam
+              ? "../src/assets/nav/close.PNG"
+              : "../src/assets/nav/menu.PNG"
           }
           alt="menu-button"
           onClick={handleToggle}

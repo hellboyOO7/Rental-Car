@@ -27,7 +27,7 @@ let Hero = () => {
       <div className={styles.rightContainer}>
         <img
           className={styles.heroImage}
-          src="src\assets\Hero\download.jpg"
+          src="../src/assets/Hero/HeroImg.JPG"
           alt="Hero Image"
         />
       </div>

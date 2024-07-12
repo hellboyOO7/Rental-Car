@@ -5,7 +5,7 @@ let Details = () => {
   return (
     <section className={styles.detailContainer}>
       <div className={styles.imgConatiner}>
-        <img src="src\assets\Details\details.png" alt="" />
+        <img src="../src/assets/Details/details.PNG" alt="" />
       </div>
       <div className={styles.textContainer}>
         <div className={styles.leftContent}>
@@ -27,7 +27,7 @@ let Details = () => {
         <div className={styles.rightContainer}>
           <div className={styles.section}>
             <span>
-              <img src="src\assets\Details\crossCountry.png" alt="" />
+              <img src="../src/assets/Details/crossCountry.PNG" alt="" />
             </span>
             <div className={styles.sectionContent}>
               <h2>Cross Country Drive</h2>
@@ -40,7 +40,7 @@ let Details = () => {
 
           <div className={styles.section}>
             <span>
-              <img src="src\assets\Details\inclusiveprice.png" alt="" />
+              <img src="../src/assets/Details/inclusiveprice.PNG" alt="" />
             </span>
             <div className={styles.sectionContent}>
               <h2>All Inclusive Pricing</h2>
@@ -53,7 +53,7 @@ let Details = () => {
 
           <div className={styles.section}>
             <span>
-              <img src="src\assets\Details\hiddenCharge.png" alt="" />
+              <img src="../src/assets/Details/hiddenCharge.PNG" alt="" />
             </span>
             <div className={styles.sectionContent}>
               <h2>No Hidden Charges</h2>

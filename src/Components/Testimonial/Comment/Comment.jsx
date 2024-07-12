@@ -19,7 +19,7 @@ let Comment = ({ user }) => {
               </div>
               <img
                 className={styles.commentIcon}
-                src="src\assets\Testimonial\coma.png"
+                src="../src/assets/Testimonial/coma.PNG"
               />
             </div>
           </div>
