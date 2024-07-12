@@ -14,8 +14,8 @@ let Download = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <img src="../src/assets/Downloads/play.PNG" alt="" />
-        <img src="../src/assets/Downloads/app.PNG" alt="" />
+        <img src="Downloads/play.PNG" alt="" />
+        <img src="Downloads/app.PNG" alt="" />
       </div>
     </div>
   );

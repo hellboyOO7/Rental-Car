@@ -6,7 +6,7 @@ let Models = () => {
   let [carModels, setCarModels] = useState([
     {
       rent: "1100",
-      img: "../src/assets/Models/elentra.PNG",
+      img: "Models/elentra.png",
       brand: "Hyundai",
       model: "Elantra",
       mark: "A1",
@@ -18,7 +18,7 @@ let Models = () => {
     },
     {
       rent: "850",
-      img: "../src/assets/Models/swift.PNG",
+      img: "Models/swift.png",
       brand: "Suzuki",
       model: "Swift",
       mark: "A2",
@@ -30,7 +30,7 @@ let Models = () => {
     },
     {
       rent: "1899",
-      img: "../src/assets/Models/fortuner.PNG",
+      img: "Models/fortuner.png",
       brand: "Toyota",
       model: "Fortuner",
       mark: "A1",
@@ -42,7 +42,7 @@ let Models = () => {
     },
     {
       rent: "1499",
-      img: "../src/assets/Models/harrier.PNG",
+      img: "Models/harrier.PNG",
       brand: "Tata",
       model: "Harrier",
       mark: "A1",
@@ -54,7 +54,7 @@ let Models = () => {
     },
     {
       rent: "1250",
-      img: "../src/assets/Models/thar.PNG",
+      img: "Models/thar.PNG",
       brand: "Mahindra",
       model: "Thar",
       mark: "A1",
@@ -66,7 +66,7 @@ let Models = () => {
     },
     {
       rent: "1499",
-      img: "../src/assets/Models/nexon.PNG",
+      img: "Models/nexon.PNG",
       brand: "Tata",
       model: "Nexon",
       mark: "A1",

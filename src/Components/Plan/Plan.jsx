@@ -9,7 +9,7 @@ let Plan = () => {
       </div>
       <div className={styles.plan2}>
         <div className={styles.sections}>
-          <img src="../src/assets/plan/select.PNG" alt="" />
+          <img src="plan\select.png" alt="" />
           <h2>Select Car</h2>
           <p>
             We offers a big range of vehicles for all your driving needs. we
@@ -17,7 +17,7 @@ let Plan = () => {
           </p>
         </div>
         <div className={styles.sections}>
-          <img src="../src/assets/plan/contact.PNG" alt="" />
+          <img src="plan\contact.png" alt="" />
           <h2>Contact Operator</h2>
           <p>
             Our knowledgeable and friendly opertors are always ready to help
@@ -25,7 +25,7 @@ let Plan = () => {
           </p>
         </div>
         <div className={styles.sections}>
-          <img src="../src/assets/plan/trip.PNG" alt="" />
+          <img src="plan\trip.png" alt="" />
           <h2>Let's Drive</h2>
           <p>
             Wheather you're hitting the open road, we've got you covered with
