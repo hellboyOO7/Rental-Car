@@ -5,7 +5,7 @@ let Details = () => {
   return (
     <section className={styles.detailContainer}>
       <div className={styles.imgConatiner}>
-        <img src="Details\details.png" alt="" />
+        <img src="Details\detailsMain.jpg" alt="" />
       </div>
       <div className={styles.textContainer}>
         <div className={styles.leftContent}>
